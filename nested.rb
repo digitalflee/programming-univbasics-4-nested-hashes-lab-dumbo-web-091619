@@ -105,10 +105,11 @@ def changing_alan
           :languages => ["C"]
         }
      }
-     
-     #alans_new_info = "GUI"
-     programmer_hash[:alan_kay][:known_for] => "GUI"
+     puts programmer_hash[:alan_kay][:known_for] = "GUI"
+     programmer_hash
 end
+
+ #alans_new_info = "GUI"
 
 def adding_to_dennis
 	programmer_hash = 
