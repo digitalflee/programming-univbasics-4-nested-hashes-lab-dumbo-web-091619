@@ -83,7 +83,9 @@ def adding_matz
           :languages => ["C"]
         }
      }
-
+puts programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
+puts programmer_hash[:yukihiro_matsumoto][:languages] = ["Lisp", "C"]
+return programmer_hash
     
 end
 
