@@ -109,8 +109,6 @@ def changing_alan
      programmer_hash
 end
 
- #alans_new_info = "GUI"
-
 def adding_to_dennis
 	programmer_hash = 
  		{
@@ -127,5 +125,6 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-
+puts programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
+     programmer_hash
 end
