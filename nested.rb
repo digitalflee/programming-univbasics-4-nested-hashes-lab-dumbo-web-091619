@@ -86,7 +86,7 @@ def adding_matz
      
 puts yuki_languages = ["Lisp", "C"]
 programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
-    
+   programmer_hash[:yukihiro_matsumoto][:languages] = "Lisp", "C"
 end
 
 def changing_alan
